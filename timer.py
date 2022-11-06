@@ -10,6 +10,7 @@ class Timer:
         self.stopped = False
 
     def start_timer(self, event):
+        #Start pressed while not paused or stopped and running
         if self.time > 0 and self.stopped == False and self.pause == False:
             return
         self.time = time.perf_counter()
