@@ -5,7 +5,7 @@ two dimensional array, date and time, dict key date only with time list
 '''
 
 #Dict with date key and time list value
-class data:
+class Data:
 
     #Dict key is date and time is in seconds format
     def __init__(self, cat_name, dict=None):
