@@ -1,9 +1,3 @@
-'''
-How to store date and time - two seperate lists? dict? - what keys, index key with date time list?
-two dimensional array, date and time, dict key date only with time list
-- If they are stored in two seperate lists sorting will be hard?
-'''
-
 #Dict with date key and time list value
 class Data:
 
